@@ -18,13 +18,13 @@ programa {
 			salarioExtra = excedente * 20
 			salario = 50 * 10
 			salario += salarioExtra
-			escreva (EXIBE_SALARIO, " ", salario, EXIBE_EXCEDENTE, " ", salarioExtra)
+			escreva (EXIBE_SALARIO, " R$", salario, EXIBE_EXCEDENTE, " R$", salarioExtra)
 		
 		} senao {
 				excedente = 0
 				salario = horasTrabalhadas * 10
-				escreva (EXIBE_SALARIO, " ", salario)
-				escreva (EXIBE_EXCEDENTE, " ", excedente)
+				escreva (EXIBE_SALARIO, " R$", salario)
+				escreva (EXIBE_EXCEDENTE, " R$", excedente)
 		}
 	}
 }
@@ -33,7 +33,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 521; 
+ * @POSICAO-CURSOR = 763; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
