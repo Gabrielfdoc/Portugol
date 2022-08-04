@@ -3,21 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		real C, N, E, S, aux
-
-		escreva("Digite o número de horas trabalhadas: ")
+		inteiro N
+		
+		escreva("Insira o número: ")
 		leia(N)
 
-		se (N > 50){
-			E = N - 50
-			aux = E * 20
-			S = 50 * 10
-			escreva ("Salário Total: ", S,"\nExcedente: ", aux)
-		
+		se (N % 2 == 0){
+			escreva ("O número é par.")
 		}senao{
-			E = 0
-			S = N * 10
-			escreva ("Salário Total: ", S,"\nExcedente: ", E)
+			escreva ("O número é ímpar.")
+		}
+		se (N >= 0){
+			escreva ("\nO número é positivo.")
+		}senao{
+			escreva ("\nO número é negativo.")
 		}
 	}
 }
@@ -26,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 111; 
+ * @POSICAO-CURSOR = 270; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
