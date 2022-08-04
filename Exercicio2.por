@@ -4,7 +4,10 @@ programa {
 	  const cadeia EXIBE_EXCEDENTE = "\nExcedente:"
 	  const inteiro LIMITE_HORAS = 50
 	    
-		real horasTrabalhadas, excedente, salario
+		real horasTrabalhadas, excedente, salario, cod
+
+		escreva("Digite o código do funcionário: ")
+		leia(cod)
 
 		escreva("Digite o número de horas trabalhadas:")
 		leia(horasTrabalhadas)
@@ -14,6 +17,7 @@ programa {
 			excedente = horasTrabalhadas - 50
 			salarioExtra = excedente * 20
 			salario = 50 * 10
+			salario += salarioExtra
 			escreva (EXIBE_SALARIO, " ", salario, EXIBE_EXCEDENTE, " ", salarioExtra)
 		
 		} senao {
@@ -29,7 +33,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 686; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
