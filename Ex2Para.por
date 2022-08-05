@@ -3,13 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro soma = 0, num
+		inteiro soma = 0, numero
 
-		para (num = 1; num <= 500; num++)
+		para (numero = 1; numero <= 500; numero++)
 		{
-			se (num % 3 == 0 e num % 2 != 0)
+			se (numero % 3 == 0 e numero % 2 != 0)
 			{
-				 soma = soma + num
+				 soma = soma + numero
 			}
 		}
 		escreva ("Soma: ", soma)
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 166; 
+ * @POSICAO-CURSOR = 182; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

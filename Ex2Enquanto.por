@@ -1,16 +1,18 @@
 programa
 {
-	
-	funcao inicio()
+	funcao inicio() 
 	{
-		inteiro num
+		inteiro numero
 		
 		escreva("Digite um número: ")
-		leia(num)
+		leia(numero)
+
+		limpa()
+		escreva(numero, "\n")
 		
-		enquanto(num <= 100){
-			num = num * 3
-			escreva(num, "\n")
+		enquanto(numero <= 100) {
+			numero = numero * 3
+			escreva(numero, "\n")
 		}
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 17; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
