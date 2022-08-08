@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real notas [5], maiorNota = 0.0
+		real notas [5], maiorNota = -2147483647
 		
 		para (inteiro i = 0; i < 5; i ++){
 			
@@ -26,9 +26,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 300; 
+ * @POSICAO-CURSOR = 69; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {notas, 6, 7, 5}-{maiorNota, 6, 18, 9};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
