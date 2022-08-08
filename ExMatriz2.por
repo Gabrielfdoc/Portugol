@@ -9,6 +9,7 @@ programa
 		diagonal, ou seja, diagonal principal.
 		 */
 		inteiro matriz[3][3], soma = 0, somaDiagonal = 0
+		//inteiro somaSecundaria = 0, aux
 
 		para (inteiro linha = 0; linha < 3; linha++) {
 
@@ -24,9 +25,15 @@ programa
 				}
 			}
 		}
+		/*Apenas para fins de estudo fiz também para a diagonal secundária, permancerá comentado, porém segue o código
+		para (inteiro linha = 0; linha <= 2; linha ++) {
+		aux = matriz[linha][2 - linha]
+		somaSecundaria += aux
+		}*/
 		limpa()
 		escreva("A soma dos valores da matriz é: ", soma)
 		escreva("\nA soma dos valores da diagonal principal da matriz é: ", somaDiagonal) 
+		//escreva("\nA soma dos valores da diagonal secundária da matriz é: ", somaSecundaria) 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -34,9 +41,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 254; 
+ * @POSICAO-CURSOR = 878; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {matriz, 11, 10, 6}-{soma, 11, 24, 4};
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 11, 10, 6}-{soma, 11, 24, 4}-{somaDiagonal, 11, 34, 12};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
