@@ -15,7 +15,7 @@ programa
 
 			para (inteiro coluna = 0; coluna < 3; coluna++) {
 
-				escreva("Digite os valores para a matriz de 3x3: ")
+				escreva("Digite o valor para a linha ", linha, ", coluna ", coluna, " da matriz: ")
 				leia(matriz[linha][coluna])
 				soma += matriz[linha][coluna]
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 878; 
+ * @POSICAO-CURSOR = 899; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 11, 10, 6}-{soma, 11, 24, 4}-{somaDiagonal, 11, 34, 12};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
